@@ -15,7 +15,14 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  literal_aoh = [DON_G.sort, JOELLE_VD.sort, PAT_M.sort, KATE_G.sort, BRUCE_G.sort]
+ 
+ outer_results = []
+row_index = 0
+while row_index < spice_rack.count do
+  element_index = 0
+  inner_results = []
+  while element_index < spice_rack[row_index].count do
+ 
 end
 
 def aoh_lookup(aoh, row, key)

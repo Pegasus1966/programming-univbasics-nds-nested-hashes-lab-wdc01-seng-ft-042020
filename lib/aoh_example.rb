@@ -16,12 +16,7 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
  
- outer_results = []
-row_index = 0
-while row_index < spice_rack.count do
-  element_index = 0
-  inner_results = []
-  while element_index < spice_rack[row_index].count do
+  literal_aoh = [DON_G[0], DON_G[1]]
  
 end
 
